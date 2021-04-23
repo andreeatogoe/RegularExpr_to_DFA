@@ -1,0 +1,13 @@
+TOGOE DULCU ANDREEA CRISTINA 332 CB TEMA 3 LFA
+
+	Pentru implementarea temei m-am folosit de ANTLR pentru a ma ajuta in 
+efectuarea conversiei dintre expresii regulate si automate finite 
+nondeterministe. Am scris gramatica pentru tipul de expresie dat, apoi am 
+generat fisierele antlr . Am creeat fisierul GrammarEvalVisitor.py in care 
+m-am folosit de metoda lui Thompson si am rescris functiile generate in 
+fisierul GrammarERVisitor.py, astfel generand NFA-ul. Am inclus fisierul 
+mainNFA.py ce contine implementarea temei 2 plus inca doua metode de care 
+am avut nevoie pentru aceasta tema, pentru a ma folosi de clasa NFA. In main 
+am obtinut rezultatul(nfa-ul) si l-am afisat in fisierul de output, iar apoi 
+am apelat metoda de conversie in DFA, pe care o afisez intr un fisier de 
+output de asemenea.
